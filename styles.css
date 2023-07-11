@@ -1,14 +1,62 @@
+/* selector de clase universal */
+html {
+    box-sizing: border-box;
+}
+h2,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+/* HEADER */
 .portadaHeroBanner {
     background-image: url('../img/header.jpg');
-    background-size:cover; 
-    background-position: center; 
-    height:300px; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
     text-align: left;
     font-size: 25px;
-    color: white; 
-    padding-top: 250px; 
-    }
+    color: white;
+    padding-top: 250px;
+}
+
+
+
+
+
+
+
+/* Sección LOCATION */
+.location_section {
+    background-color: rgba(86, 234, 98, 0.309);
+
+
+}
+
+#seccion-4 {
+
+    text-align: center;
+    padding-top: 40px;
+}
+.titulo-4{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.contenedor_location {
+    display: flex;
+    justify-content: center;
     
-    h1{
-    font-family:'Courier New', Courier,Â monospace;
-    }
+}
+
+
+.google_map{
+    border-radius: 50%;
+    width: 350px;
+    height: 250px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    
+}
