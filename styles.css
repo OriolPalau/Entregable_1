@@ -1,0 +1,14 @@
+.portadaHeroBanner {
+    background-image: url('../img/header.jpg');
+    background-size:cover; 
+    background-position: center; 
+    height:300px; 
+    text-align: left;
+    font-size: 25px;
+    color: white; 
+    padding-top: 250px; 
+    }
+    
+    h1{
+    font-family:'Courier New', Courier,Â monospace;
+    }
