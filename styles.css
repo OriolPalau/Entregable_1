@@ -2,7 +2,10 @@
 html {
     box-sizing: border-box;
 }
-h2,h2,h3{
+
+h2,
+h2,
+h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -29,34 +32,36 @@ h2,h2,h3{
 
 /* Sección LOCATION */
 .location_section {
-    background-color: rgba(86, 234, 98, 0.309);
+    background-color: rgba(173, 184, 188, 0.385);
 
 
 }
 
 #seccion-4 {
-
     text-align: center;
     padding-top: 40px;
 }
-.titulo-4{
+
+.titulo-4 {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 30px;
 }
 
 .contenedor_location {
+    
     display: flex;
     justify-content: center;
-    
+
 }
 
 
-.google_map{
+.map {
     border-radius: 50%;
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    
     margin-right: 25px;
     margin-bottom: 60px;
-    
+
 }
