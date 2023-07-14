@@ -18,15 +18,30 @@ medidas se mantendrá así sin importar el relleno, margen o borde que agregue.
 
 /*Ajustes de estilo en Textos*/
 /*Tipografía Trutype .TFF o OpenType .OTF a aplicar llamando a la hoja de estilos vinculando los parrafos  y a la ruta*/
+/*Font-face fuente personalizada font-family: MiFuentePersonal, Helvetica, sans-serif;*/
+@font-face {
+    font-family: 'Open Sans' !important;
+    /*Antes de descargar el archivo, le decimos al buscador que intente buscar en local la fuente con ese nombre*/
+    src: 
+    local('Open Sans'),
+    url("../FONT/Open Sans.ttf") format('truetype');
+    /*propiedades*/
+    font-style: normal;
+    font-weight: 400;
+    }
+/*Fuentes con aspecto similar, alternativa estándar, para aplicar a todo el html*/
+html {
+	font-family: 'Open Sans', Nunito, Verdana, Arial, Helvetica, sans-serif;
+	/*Otras comunes Geneva, Trebuchet, Tahoma, Futura, Calibri, Candara, Optima,*/
+	font-size: 16px;
+	/*Responsive para pantallas móviles es 16-18 pixeles. 16px en Unidad Relativa: 1rem (base)*/
+	/*font-size: normal;*/
+	text-decoration: none;
+}
 
 
-
-
-
-h2,
-h2,
 h3 {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 body{
