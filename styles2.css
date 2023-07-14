@@ -1,0 +1,220 @@
+/* selector de clase universal */
+
+*{
+    
+    box-sizing: border-box;
+}
+
+
+h2,
+h2,
+h3 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    max-width: 1024px ;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+/* HEADER */
+.portadaHeroBanner {
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: left;
+    font-size:20px;
+    color: white;
+    padding-top: 100px;
+}
+
+nav{
+    background-color: rgba(44, 10, 87, 0.684);
+}
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+}
+
+.menu{
+    display:flex;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: justify;
+}
+
+.menu:hover{
+    background-color:white ;
+    color: rgba(44, 10, 87, 0.684);
+}
+
+
+
+.seccion-1 {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    
+}
+.columnas {
+    display: flex;
+
+}
+.columnas div {
+    flex: 50%;
+}
+
+.columna-1{
+    margin-right: 20px;
+}
+
+.columna-1 img {
+    float: left;
+}
+
+.columna-1 div {
+    text-align: justify;
+   
+}
+
+.columna-2{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.columna-2 p {
+    text-align: justify;
+  
+}
+
+.columna-2 h3 {
+    text-align: left;
+}
+
+
+.seccion-2{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.seccion-3{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(207, 214, 217, 0.385);
+    margin: 0;
+}
+
+
+
+
+#seccion-4 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.titulo-4 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+
+.contenedor_location {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.map {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    
+    margin-right: 25px;
+    margin-bottom: 60px;
+
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgba(44, 10, 87, 0.684);
+    background-image: url("img/map-image.png");
+    background-size: cover;
+    
+}
+
+.formulario {
+
+width: 400px;
+border: rgba(44, 10, 87, 0.684);
+margin: 0px auto;
+margin-top: 10px;
+padding: 20px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+.formulario h1{
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+.etiquetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caja {
+    display: flex;
+    margin: 3px 0px;
+    
+}
+
+.caja label{
+    flex-basis: 100px;
+}
+.caja input{
+    flex: 1;
+}
+
+div input {
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90px;
+    align-self: center;
+    
+}
+
+.derechos_reservados {
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(112, 66, 155);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enlace_lasalle {
+    color: aliceblue;
+}
