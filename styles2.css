@@ -1,9 +1,25 @@
-/* selector de clase universal */
+/*PREAJUSTES CSS / HOJA DE ESTILO*/
 
+/*Aplicación dimensiones elementos
+Este *{} selector universal se aplica a todos y cada uno de los elementos del archivo html.
+m0 p0 para eliminar margen y relleno predeterminado de cada elemento html.
+*/
+/*La box-sizing propiedad nos permite incluir el relleno y el borde en el ancho y alto total de un elemento.
+Si establece box-sizing: border-box;en un elemento, el relleno y el borde se incluyen en el ancho y el alto
+Border-box le dice al navegador que tenga en cuenta cualquier borde y relleno en los valores que especifique para el ancho y alto de un elemento.
+Incluirán cualquier borde o relleno que haya agregado, el cuadro de contenido se encogerá para absorber ese ancho adicional,
+medidas se mantendrá así sin importar el relleno, margen o borde que agregue.
+*/
 *{
-    
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+
+
+
+
 
 
 h2,
