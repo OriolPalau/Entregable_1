@@ -120,7 +120,7 @@ li{
 }
 
 
-/* OUR SERVICES */
+
 
 .columna-2{
     margin-left: 20px;
@@ -142,6 +142,41 @@ li{
     padding-top: 20px;
     margin: 0;
 }
+
+
+/* OUR SERVICES */
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icons i {
+    font-size: 26px;
+    color: #2d4777;
+   padding: 20px;
+  }
+
+  .services_line{
+    display: flex;
+  }
+
+  .icons{
+    float: left;
+    margin: 5px;
+  }
+
+  .box {
+   display: flex;
+   text-align: justify;
+   margin: 10px;
+  }
+
 
 
 /* portfolio */
