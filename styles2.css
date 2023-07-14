@@ -136,17 +136,21 @@ li{
     background-color: rgba(207, 214, 217, 0.385);
     margin: 0;
     padding-bottom: 80px;
-   
-    
 }
 
+.seccion-3 h2 , .seccion-3 p{
+    margin-top: 15px;;
+}
 
+.seccion-3 p{
+    margin-bottom: 20px;
+}
 
 .contenedor_imagenes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin: auto;
     padding-top: 20px;
     column-gap: 2px;
@@ -161,12 +165,6 @@ li{
     width: 250px;
 }
 
-
-
-
-.seccion-3 img {
-    width: 250px;
-}
 
 
 /* LOCATION */
