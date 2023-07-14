@@ -112,13 +112,18 @@ li{
 }
 
 
-/* portfolio */
+/* PORTFOLIO */
 
 .seccion-3{
     text-align: center;
     padding-top: 20px;
     background-color: rgba(207, 214, 217, 0.385);
     margin: 0;
+}
+
+.contenedor_imagenes {
+    display: flex;
+    flex-direction: column;
 }
 
 
