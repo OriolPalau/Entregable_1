@@ -16,6 +16,8 @@ medidas se mantendrá así sin importar el relleno, margen o borde que agregue.
 }
 
 
+/*Ajustes de estilo en Textos*/
+/*Tipografía Trutype .TFF o OpenType .OTF a aplicar llamando a la hoja de estilos vinculando los parrafos  y a la ruta*/
 
 
 
@@ -133,8 +135,31 @@ li{
     padding-top: 20px;
     background-color: rgba(207, 214, 217, 0.385);
     margin: 0;
+    padding-bottom: 80px;
+   
+    
 }
 
+
+
+.contenedor_imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    column-gap: 2px;
+    row-gap: 10px;
+    justify-content: center;
+    
+}
+
+
+
+.seccion-3 img {
+    width: 250px;
+}
 
 
 /* LOCATION */
