@@ -17,14 +17,14 @@ medidas se mantendrá así sin importar el relleno, margen o borde que agregue.
 
 
 /*Ajustes de estilo en Textos*/
-/*Tipografía Trutype .TFF o OpenType .OTF a aplicar llamando a la hoja de estilos vinculando los parrafos  y a la ruta*/
-/*Font-face fuente personalizada font-family: MiFuentePersonal, Helvetica, sans-serif;*/
+/*Tipografía Trutype .TFF o OpenType .OTF a aplicar llamando a la hoja de estilos vinculando los parrafos y a la ruta*/
+/*Font-face fuente personalizada font-family: MiFuentePersonal, sans-serif;*/
 @font-face {
     font-family: 'Open Sans' !important;
     /*Antes de descargar el archivo, le decimos al buscador que intente buscar en local la fuente con ese nombre*/
     src: 
     local('Open Sans'),
-    url("../FONT/Open Sans.ttf") format('truetype');
+    url("../font/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
     /*propiedades*/
     font-style: normal;
     font-weight: 400;
@@ -40,16 +40,11 @@ html {
 }
 
 
-h3 {
-    
-}
-
 body{
-    max-width: 1024px ;
+    /* max-width: 1024px ; */
     margin: 0 auto;
     padding: 20px;
 }
-
 
 
 /* HEADER */
@@ -62,6 +57,10 @@ body{
     font-size:20px;
     color: white;
     padding-top: 100px;
+}
+
+.txtheroImage {
+padding-left: 5%;
 }
 
 nav{
@@ -209,7 +208,6 @@ li{
     column-gap: 2px;
     row-gap: 10px;
     justify-content: center;
-    
 }
 
 
