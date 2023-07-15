@@ -93,12 +93,13 @@ li{
 }
 
 
+/* Who we are */
+
 
 .seccion-1 {
     text-align: center;
     padding-top: 20px;
     margin: 0;
-    
 }
 .columnas {
     display: flex;
@@ -148,6 +149,7 @@ li{
     text-align: center;
     padding-top: 30px;
     margin: 0;
+    
 }
 
 .icons {
