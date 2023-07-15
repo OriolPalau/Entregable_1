@@ -221,6 +221,25 @@ li{
     width: 250px;
 }
 
+.translate_1{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+.translate_1:hover{
+    transform:rotate(-10deg);
+}
+
+.translate_2{
+    width: 300px;
+    height: 200px;
+    transition:transform 3s; border-radius: 2s;
+}
+.translate_2:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+        
 
 
 /* LOCATION */
