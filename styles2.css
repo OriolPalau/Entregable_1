@@ -274,6 +274,7 @@ li{
 }
 
 .google_card {
+
 }
 
 .map {
@@ -282,7 +283,10 @@ li{
     height: 300px;
     margin-right: 25px;
     margin-bottom: 60px;
-    border: 4px solid black;
+            /* border: 2px solid black; */
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
 }
 
 /* Footer */
