@@ -44,9 +44,12 @@ body{
     /* max-width: 1024px ; */
     margin: 0 auto;
     padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.contenidoPrincipal {
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 0px;
 }
 
 
@@ -55,7 +58,7 @@ body{
     background-image: url('img/header.jpg');
         /* // establecer el tamaño y no permitir repetición de la imagen */
     /* Escala el alto de la imagen de fondo al alto del elemento. */
-    background-size : contain;
+    /* background-size : contain; */
     /* Escala el ancho de la imagen de fondo al ancho del elemento.*/
     background-size: cover;
     background-position: center;
@@ -67,15 +70,17 @@ body{
 }
 
 .txtheroImage {
-padding-top: 100px;
+padding-top: 120px;
 padding-left: 5%;
 text-align: left;
 font-size:20px;
 color: white;
+
 }
 
 nav{
     background-color: rgba(44, 10, 87, 0.684);
+    padding-left: 5%;
 }
 ul{
     list-style-type: none;
