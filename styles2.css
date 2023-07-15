@@ -39,16 +39,19 @@ html {
 	text-decoration: none;
 }
 
-
+/* arriba y abajo general */
 body{
     /* max-width: 1024px ; */
     margin: 0 auto;
     padding-top: 0px;
-    padding-left: 15%;
-    padding-right: 15%;
     padding-bottom: 0px;
 }
 
+/* laterales solo contenido cuerpo sin banner y menú */
+.contenidoPrincipal {
+    padding-left: 10%;
+    padding-right: 10%;
+}ambio
 
 /* HEADER */
 .portadaHeroBanner {
@@ -85,6 +88,8 @@ li{
     text-decoration: none;
     padding: 5px;
     text-align: justify;
+    margin-left: 40px;
+    /* padding-left: 10px; */
 }
 
 .menu:hover{
