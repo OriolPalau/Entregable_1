@@ -53,17 +53,25 @@ body{
 /* HEADER */
 .portadaHeroBanner {
     background-image: url('img/header.jpg');
+        /* // establecer el tamaño y no permitir repetición de la imagen */
+    /* Escala el alto de la imagen de fondo al alto del elemento. */
+    background-size : contain;
+    /* Escala el ancho de la imagen de fondo al ancho del elemento.*/
     background-size: cover;
     background-position: center;
     height: 300px;
-    text-align: left;
-    font-size:20px;
-    color: white;
-    padding-top: 100px;
+    /* width: 100%; */
+    /* // Debe incluir la altura height: 100vh; */
+    background-repeat : no-repeat;
+    /* background-image: gradient(linear, left top, left bottom,); */
 }
 
 .txtheroImage {
+padding-top: 100px;
 padding-left: 5%;
+text-align: left;
+font-size:20px;
+color: white;
 }
 
 nav{
