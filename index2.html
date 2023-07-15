@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-
+<!-- Indicar a Google lenguaje-->
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <title>My Busines Webpage</title>
-  <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f601.svg" />
-  <!-- <link rel="stylesheet" src="CSS/style.css" type="text/css"> -->
-  <link rel="stylesheet" href="styles2.css" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<!-- Información Meta con Elemento + atributo + contenido-->
+<!-- Codificación UTF8 para evitar que los caracteres especiales sean interpretados de manera diferente -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Responsive proporciones viewport necesario para frameworks y dispositivos adaptables-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- maximum-scale=1.0,minimum-scale=1.0 -->
+<!-- name Que es? (description keywords author) + content (describir)-->
+<meta name="description" content="Web de prácticas">
+<!-- Palabras clave -->
+<meta name="keywords" content="CSS, HTML, Robot, Ejercicios">
+<!-- Autor -->
+<meta name="author" content="Uri, Jose y Rocío">
+<!-- Título visible pestaña de la página -->
+<title>My Busines Webpage</title>
+<!-- Link Hoja de Estilos en Cascada -->
+  <link rel="stylesheet" href="styles2.css" type="text/css">
+  <!-- No < src="CSS/style.css"> -->
+  <!-- Enlace a CSS Interno de Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Enlace a CSS Interno de Material Icons-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+  <!-- Enlace a Favicon externo visible pestaña -->
+  <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f601.svg">
+  <!-- Recomendable es insertar en raiz también en otro formato para navegador, muestre una segunda opción como png. -->
 </head>
 
+
 <body>
+
   <header>
     <section class="portadaHeroBanner">
-      <h1>My Bussines Webpage</h1>
+      <h1 class="txtheroImage">My Bussines Webpage</h1>
     </section>
     <nav>
       <ul>
@@ -27,10 +46,9 @@
         <li><a class="menu"href="#Email Us"> Email Us</a></li>
       </ul>
     </nav>
-
   </header>
 
-  <main> 
+  <main>
   <div class="seccion-1">
     <h2 >Who we are?</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
@@ -38,7 +56,7 @@
   </div>
 </br>
 
-  
+
   <div class="columnas">
       <div class="columna-1">
       <h3>Lorem ipsum</h3>
@@ -207,7 +225,7 @@ convallis magna sit amet diam euismod malesuada.
       <h2>Portfolio</h2>
       <p>There are success projects created by us</p>
 
-      
+     
         <section class="contenedor_imagenes">
           <img src="img/2.jpg" alt="foto galeria1 cuadricula" class="imagen"/>
           <img src="img/3.jpg" alt="foto galeria1 cuadricula" class="imagen"/>
@@ -218,7 +236,7 @@ convallis magna sit amet diam euismod malesuada.
           <img src="img/8.jpg" alt="foto galeria1 cuadricula" class="imagen"/>
           <img src="img/9.jpg" alt="foto galeria1 cuadricula"class="imagen" />
           <img src="img/10.jpg" alt="foto galeria1 cuadricula" class="imagen"/>
-        
+        <!--Mensaje <p title="I'm a tooltip. Mi equipo trabaja duro"></p>-->
         </section>
 
      
